@@ -1,0 +1,12 @@
+### Создание
+POST http://localhost:8080/api/persons
+Content-Type: application/json
+
+{
+  "id": 0,
+  "name": "petya"
+}
+
+### Получение
+GET http://localhost:8080/api/persons/2
+
